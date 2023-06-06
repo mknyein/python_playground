@@ -33,11 +33,9 @@ The progress bar will indicate the installation progress.
 Once the installation is complete, open a command prompt by pressing Win + R and typing "cmd" in the Run dialog box. Press Enter.
 
 In the command prompt, type the following command and press Enter:
-
 ```bash
 python --version
 ```
-
 If Python is installed correctly, it will display the version number.
 
 ## Install Jupyter Notebook:
@@ -52,10 +50,21 @@ In the Command Prompt, type the following command and press Enter:
 jupyter notebook
 ```
 
+## Verify Jupyter Notebook installation:
+In the Command Prompt, type the following command and press Enter:
+```bash
+jupyter notebook --version
+```
+If Jupyter Notebook is installed correctly, it will display the version number.
+
 ## Jupyter Notebook Interface:
 After running the command, your default web browser should open, displaying the Jupyter Notebook interface.
-You can create a new notebook or open an existing one.
-To start coding, click on a new or existing notebook file and begin writing code in the cells.
+The interface shows the file browser in your current directory.
+You can create a new notebook or open an existing one by clicking on the respective options.
+
+## Create a new notebook:
+In the Jupyter Notebook interface, click on the "New" button and select "Python 3" (or any other available kernel) to create a new notebook.
+This will open a new notebook with an empty code cell ready for you to start coding.
 
 
 
