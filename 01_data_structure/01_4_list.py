@@ -1,5 +1,5 @@
 # List assignment
-numbers = [1, 2, 3, 4, 5]
+numbers = [1, "two", 3, 4, 5]
 
 # Accessing elements by index
 first_number = numbers[0]
@@ -15,7 +15,7 @@ numbers[2] = 10
 numbers.append(6)
 numbers.remove(4)
 
-print(numbers)       # Output: [1, 2, 10, 5, 6]
+print(numbers)       # Output: [1, "two", 10, 5, 6]
 print(first_number)  # Output: 1
 print(last_number)   # Output: 5
-print(subset)        # Output: [2, 10, 5]
+print(subset)        # Output: ["two", 3, 4]
