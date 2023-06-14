@@ -1,3 +1,5 @@
+#! /usr/local/bin/python3
+
 # Variable assignment
 x = 10
 y = 5.7
